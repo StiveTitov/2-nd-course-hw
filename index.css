@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+
+.top {
+    height: 1024px;
+    background-image: url(img/top_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top__content {
+    padding-top: 217px; 
+}
+.top__title {
+    
+    width: 788px;
+    color: #FFF;
+font-size: 64px;
+font-style: normal;
+line-height: normal;
+}
+.top__text {
+    margin-top: 32px;
+    width: 481px;
+    color: #FFF;
+    
+    font-size: 18px;
+    font-style: normal;
+    
+    line-height: 32px;
+}
+.top__text_font {
+    font-weight: bold;
+}
+.top__button {
+    margin-top: 44px;;
+    width: 234px;
+height: 49px;
+border-radius: 30px;
+background: #9C0332;
+box-sizing: border-box;
+color: #FFF;
+
+}
+.footer {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #000915;
+}
+.footer__content {
+        display: flex;
+        justify-content: space-between;
+    gap: 32px;
+}
+.footer__button1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 379px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(img/game1.jpg), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    box-sizing:border-box;
+    
+}
+.footer__button2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 379px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(img/game2.jpg), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    box-sizing:border-box;
+}
+.footer__button3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 379px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(img/game3.jpg), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    box-sizing:border-box;
+}
+.footer__button_text {
+    margin-left: 32px;
+    margin-bottom: 32px;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 32px;
+
+}

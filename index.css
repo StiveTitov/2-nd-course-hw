@@ -85,6 +85,11 @@ cursor: pointer;
     box-sizing:border-box;
     
 }
+.footer__button1:hover {
+    transform: scale(1.05);
+    
+  }
+  
 .footer__button2 {
     display: flex;
     align-items: flex-end;
@@ -97,6 +102,11 @@ cursor: pointer;
     border-radius: 16px;
     box-sizing:border-box;
 }
+.footer__button2:hover {
+    transform: scale(1.05);
+    
+  }
+
 .footer__button3 {
     display: flex;
     align-items: flex-end;
@@ -109,6 +119,11 @@ cursor: pointer;
     border-radius: 16px;
     box-sizing:border-box;
 }
+.footer__button3:hover {
+    transform: scale(1.05);
+    
+  }
+
 .footer__button_text {
     margin-left: 32px;
     margin-bottom: 32px;

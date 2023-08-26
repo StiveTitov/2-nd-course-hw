@@ -48,7 +48,7 @@ line-height: normal;
 .top__text_font:hover {
     cursor: pointer;
     }
-    
+
 .top__button {
     margin-top: 44px;;
     width: 234px;
@@ -115,5 +115,7 @@ cursor: pointer;
     color: #FFF;
     font-size: 24px;
     line-height: 32px;
-
 }
+.footer__button_text:hover {
+    cursor: pointer;
+    }

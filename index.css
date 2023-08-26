@@ -44,6 +44,11 @@ line-height: normal;
 .top__text_font {
     font-weight: bold;
 }
+
+.top__text_font:hover {
+    cursor: pointer;
+    }
+    
 .top__button {
     margin-top: 44px;;
     width: 234px;
@@ -52,7 +57,10 @@ border-radius: 30px;
 background: #9C0332;
 box-sizing: border-box;
 color: #FFF;
+}
 
+.top__button:hover {
+cursor: pointer;
 }
 .footer {
     padding-top: 128px;

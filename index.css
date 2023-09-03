@@ -61,7 +61,7 @@ color: #FFF;
 
 .top__button:hover {
 background: #EB443F;
-cursor: pointer;
+cursor: url(img/clarity_cursor-hand-line.png), pointer;
 }
 .footer {
     padding-top: 128px;

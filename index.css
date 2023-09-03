@@ -60,6 +60,7 @@ color: #FFF;
 }
 
 .top__button:hover {
+background: #EB443F;
 cursor: pointer;
 }
 .footer {

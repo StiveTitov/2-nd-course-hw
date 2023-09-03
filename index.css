@@ -61,7 +61,7 @@ color: #FFF;
 
 .top__button:hover {
 background: #EB443F;
-cursor: url(img/clarity_cursor-hand-line.png), pointer;
+cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
 .footer {
     padding-top: 128px;
@@ -88,6 +88,7 @@ cursor: url(img/clarity_cursor-hand-line.png), pointer;
 }
 .footer__button1:hover {
     border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
   
 .footer__button2 {
@@ -104,6 +105,7 @@ cursor: url(img/clarity_cursor-hand-line.png), pointer;
 }
 .footer__button2:hover {
     border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
   }
 
 .footer__button3 {
@@ -120,6 +122,7 @@ cursor: url(img/clarity_cursor-hand-line.png), pointer;
 }
 .footer__button3:hover {
     border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
   }
 
 .footer__button_text {
@@ -130,5 +133,5 @@ cursor: url(img/clarity_cursor-hand-line.png), pointer;
     line-height: 32px;
 }
 .footer__button_text:hover {
-    cursor: pointer;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     }

@@ -87,9 +87,8 @@ cursor: pointer;
     
 }
 .footer__button1:hover {
-    transform: scale(1.05);
-    
-  }
+    border: 3px solid #44D2FF;
+}
   
 .footer__button2 {
     display: flex;
@@ -104,8 +103,7 @@ cursor: pointer;
     box-sizing:border-box;
 }
 .footer__button2:hover {
-    transform: scale(1.05);
-    
+    border: 3px solid #44D2FF;
   }
 
 .footer__button3 {
@@ -121,8 +119,7 @@ cursor: pointer;
     box-sizing:border-box;
 }
 .footer__button3:hover {
-    transform: scale(1.05);
-    
+    border: 3px solid #44D2FF;
   }
 
 .footer__button_text {

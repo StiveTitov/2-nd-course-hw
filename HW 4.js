@@ -31,3 +31,12 @@ const obj = {
 for (let name in obj) {
     console.log(`${name} — зарплата ${obj[name]} долларов.`);
 }
+// Задание 5
+console.log('Задание 5');
+let n = 1000;
+let num = 0;
+while (n >= 50) {
+    n = n / 2;
+    num++;
+}
+console.log(`Итераций: ${num}, переменная 'n'=${n}`);

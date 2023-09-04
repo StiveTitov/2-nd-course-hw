@@ -40,3 +40,15 @@ while (n >= 50) {
     num++;
 }
 console.log(`Итераций: ${num}, переменная 'n'=${n}`);
+
+// Задание 6
+console.log('Задание 6');
+let dayNumber = Number(prompt('Введите число первой пятницы месяца. Число должно быть от 1 до 7'));
+if (dayNumber >= 1 && dayNumber <= 7) {
+    while (dayNumber <= 31) {
+        alert(`Сегодня пятница, ${dayNumber}-е число. Необходимо подготовить отчет.`);
+        dayNumber = dayNumber + 7;
+    }
+} else {
+    alert(`Число ${dayNumber} противоречит условию`);
+}

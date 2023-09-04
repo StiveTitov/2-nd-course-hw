@@ -60,7 +60,8 @@ color: #FFF;
 }
 
 .top__button:hover {
-cursor: pointer;
+background: #EB443F;
+cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
 .footer {
     padding-top: 128px;
@@ -86,9 +87,9 @@ cursor: pointer;
     
 }
 .footer__button1:hover {
-    transform: scale(1.05);
-    
-  }
+    border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
+}
   
 .footer__button2 {
     display: flex;
@@ -103,8 +104,8 @@ cursor: pointer;
     box-sizing:border-box;
 }
 .footer__button2:hover {
-    transform: scale(1.05);
-    
+    border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
   }
 
 .footer__button3 {
@@ -120,8 +121,8 @@ cursor: pointer;
     box-sizing:border-box;
 }
 .footer__button3:hover {
-    transform: scale(1.05);
-    
+    border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
   }
 
 .footer__button_text {
@@ -132,5 +133,5 @@ cursor: pointer;
     line-height: 32px;
 }
 .footer__button_text:hover {
-    cursor: pointer;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     }

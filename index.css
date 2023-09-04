@@ -44,6 +44,11 @@ line-height: normal;
 .top__text_font {
     font-weight: bold;
 }
+
+.top__text_font:hover {
+    cursor: pointer;
+    }
+
 .top__button {
     margin-top: 44px;;
     width: 234px;
@@ -52,7 +57,10 @@ border-radius: 30px;
 background: #9C0332;
 box-sizing: border-box;
 color: #FFF;
+}
 
+.top__button:hover {
+cursor: pointer;
 }
 .footer {
     padding-top: 128px;
@@ -77,6 +85,11 @@ color: #FFF;
     box-sizing:border-box;
     
 }
+.footer__button1:hover {
+    transform: scale(1.05);
+    
+  }
+  
 .footer__button2 {
     display: flex;
     align-items: flex-end;
@@ -89,6 +102,11 @@ color: #FFF;
     border-radius: 16px;
     box-sizing:border-box;
 }
+.footer__button2:hover {
+    transform: scale(1.05);
+    
+  }
+
 .footer__button3 {
     display: flex;
     align-items: flex-end;
@@ -101,11 +119,18 @@ color: #FFF;
     border-radius: 16px;
     box-sizing:border-box;
 }
+.footer__button3:hover {
+    transform: scale(1.05);
+    
+  }
+
 .footer__button_text {
     margin-left: 32px;
     margin-bottom: 32px;
     color: #FFF;
     font-size: 24px;
     line-height: 32px;
-
 }
+.footer__button_text:hover {
+    cursor: pointer;
+    }

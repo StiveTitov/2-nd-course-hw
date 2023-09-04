@@ -6,6 +6,7 @@ while (i < 2) {
 }
 
 // Задание 2
+console.log('Задание 2');
 i = 1;
 while (i < 6) {
     console.log(i);
@@ -13,8 +14,20 @@ while (i < 6) {
 }
 
 // Задание 3
+console.log('Задание 3');
 i = 7;
 while (i < 23) {
     console.log(i);
     i++;
+}
+
+// Задание 4
+console.log('Задание 4');
+const obj = {
+    'Коля': '200',
+    'Вася': '300',
+    'Петя': '400'
+};
+for (let name in obj) {
+    console.log(`${name} — зарплата ${obj[name]} долларов.`);
 }

@@ -34,7 +34,7 @@ console.log('Задание 3.2');
 const getSecondNumber = (userSecondNumbe) => {
     alert(userSecondNumbe ** 2);
 }
-getSecondNumber(Number(prompt('Введите число')))
+getSecondNumber(Number(prompt('Введите число')));
 
 // Задание 4
 console.log('Задание 4');
@@ -46,4 +46,4 @@ const getUserAge = (userAnswer) => {
     }
     return alert('Добро пожаловать!');
 }
-getUserAge(Number(prompt('Введите пожалуйста свой возраст')))
+getUserAge(Number(prompt('Введите пожалуйста свой возраст')));

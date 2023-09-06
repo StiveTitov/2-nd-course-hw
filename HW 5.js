@@ -36,4 +36,14 @@ const getSecondNumber = (userSecondNumbe) => {
 }
 getSecondNumber(Number(prompt('Введите число')))
 
-
+// Задание 4
+console.log('Задание 4');
+const getUserAge = (userAnswer) => {
+    if (userAnswer < 0) {
+        return alert('Вы ввели неправильное значение');
+    } else if (userAnswer >= 0 && userAnswer <= 12) {
+        return alert('Привет, друг!');
+    }
+    return alert('Добро пожаловать!');
+}
+getUserAge(Number(prompt('Введите пожалуйста свой возраст')))

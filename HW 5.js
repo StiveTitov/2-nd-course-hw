@@ -11,6 +11,18 @@ const printMessage = (firstNumber, secondNumber) => {
 }
 printMessage();
 
+// Задание 2
+console.log('Задание 2');
+const getNumber = (number) => {
+    number = Number(prompt('Введите число'));
+    if (number % 2 === 0) {
+        console.log(`Число ${number} -четное`);
+        return
+    }
+    console.log(`Число ${number} -нечетное`);
+}
+getNumber();
+
 
 
 

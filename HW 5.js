@@ -20,3 +20,22 @@ if (firstNumber > secondNumber) {
 
 printMessage();
 
+// Задание 2
+console.log('Задание 2');
+let number = Number(prompt('Введите число'));
+// переменная printMessage обьявлена в первом задании
+if (number % 2 == 0) {
+
+    printMessage = function () {
+        console.log(`Число ${number} -четное`);
+    }
+
+} else {
+
+    printMessage = function () {
+        console.log(`Число ${number} -нечетное`);
+    }
+
+}
+
+printMessage();

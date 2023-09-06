@@ -23,6 +23,12 @@ const getNumber = (number) => {
 }
 getNumber();
 
-
-
+// Задание 3.1
+console.log('Задание 3');
+const getUserNumber = (userNumber) => {
+    userNumber = Number(prompt('Введите число'));
+    userNumber = userNumber ** 2;
+    console.log(`Ответ: ${userNumber}`);
+}
+getUserNumber();
 

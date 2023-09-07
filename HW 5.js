@@ -32,9 +32,10 @@ getUserNumber(Number(prompt('Введите число')));
 // Задание 3.2
 console.log('Задание 3.2');
 const getSecondNumber = (userSecondNumbe) => {
-    alert(userSecondNumbe ** 2);
+    return userSecondNumbe ** 2;
 }
-getSecondNumber(Number(prompt('Введите число')));
+let result = getSecondNumber(Number(prompt('Введите число')));
+alert(result);
 
 // Задание 4
 console.log('Задание 4');

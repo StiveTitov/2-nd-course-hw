@@ -67,11 +67,14 @@ printNewMessage();
 console.log('Задание 6');
 
 const getUserData = (userData) => {
+    userData = prompt('Число n =');
     if (isNaN(userData)) {
-        return console.log('Переданный параметр не является числом');
+        return 'Переданный параметр не является числом';
     }
-    return console.log(`n в кубе равняется ${userData ** 3}`);
+    return `n в кубе равняется ${userData ** 3}`;
 }
-getUserData(prompt('Число n ='));
+console.log(getUserData());
 
+// Задание 7
+console.log('Задание 7');
 

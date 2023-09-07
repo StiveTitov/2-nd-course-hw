@@ -78,3 +78,24 @@ console.log(getUserData());
 // Задание 7
 console.log('Задание 7');
 
+function getArea() {
+    return 3.14 * (this.radius ** 2);
+}
+function getPerimeter() {
+    return (2 * 3.14) * this.radius;
+}
+const circle1 = {
+    radius: 5,
+    area: getArea,
+    perimeter: getPerimeter,
+};
+const circle2 = {
+    radius: 9,
+    area: getArea,
+    perimeter: getPerimeter,
+};
+console.log(circle1.area());
+console.log(circle1.perimeter());
+console.log(circle2.area());
+console.log(circle2.perimeter());
+

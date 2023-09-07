@@ -5,9 +5,9 @@ const printMessage = (firstNumber, secondNumber) => {
     secondNumber = Number(prompt('Введите второе число'));
     if (firstNumber > secondNumber) {
         console.log(secondNumber);
-    } else {
-        console.log(firstNumber);
+        return
     }
+    console.log(firstNumber);
 }
 printMessage();
 

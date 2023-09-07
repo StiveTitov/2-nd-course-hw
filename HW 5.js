@@ -63,3 +63,15 @@ const printNewMessage = (firstNumber, secondNumber) => {
 }
 printNewMessage();
 
+// Задание 6
+console.log('Задание 6');
+
+const getUserData = (userData) => {
+    if (isNaN(userData)) {
+        return console.log('Переданный параметр не является числом');
+    }
+    return console.log(`n в кубе равняется ${userData ** 3}`);
+}
+getUserData(prompt('Число n ='));
+
+

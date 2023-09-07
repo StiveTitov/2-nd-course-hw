@@ -48,3 +48,18 @@ const getUserAge = (userAnswer) => {
     return alert('Добро пожаловать!');
 }
 getUserAge(Number(prompt('Введите пожалуйста свой возраст')));
+
+// Задание 5
+
+console.log('Задание 5');
+const printNewMessage = (firstNumber, secondNumber) => {
+    firstNumber = prompt('Введите первое число');
+    secondNumber = prompt('Введите второе число');
+
+    if (isNaN(firstNumber) || isNaN(secondNumber)) {
+        return console.log('Одно или оба значения не являются числом');
+    }
+    console.log(firstNumber * secondNumber);
+}
+printNewMessage();
+

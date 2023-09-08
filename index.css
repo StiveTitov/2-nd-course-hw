@@ -135,3 +135,55 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 .games__button_text:hover {
     cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     }
+
+.seasons {
+    padding-top: 237px;
+    padding-bottom: 128px;
+    background-color: #000915;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.seasons__content {
+    padding-top: 46px;
+
+}
+.seasons__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.seasons__text {
+    margin-top: 35px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+.seasons__button {
+    margin-top: 31px;;
+    width: 234px;
+height: 49px;
+border-radius: 30px;
+background: #9C0332;
+box-sizing: border-box;
+color: #FFF;
+}
+
+.seasons__button:hover {
+background: #EB443F;
+cursor: url(img/clarity_cursor-hand-line.svg), pointer;
+}
+
+.seasons__picture {
+
+}
+
+

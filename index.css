@@ -142,7 +142,7 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     background-color: #000915;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 
 }
 
@@ -186,7 +186,7 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 400px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -228,6 +228,7 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
       .seasons {
         padding-top: 127px;
         padding-bottom: 85px;
+        flex-wrap: wrap;
         gap: 64px;
       }
       .seasons__content {

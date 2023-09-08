@@ -68,12 +68,12 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     padding-bottom: 128px;
     background-color: #000915;
 }
-.footer__content {
+.games__content {
         display: flex;
         justify-content: space-between;
     gap: 32px;
 }
-.footer__button1 {
+.games__button1 {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -86,12 +86,12 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     box-sizing:border-box;
     
 }
-.footer__button1:hover {
+.games__button1:hover {
     border: 3px solid #44D2FF;
     cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
   
-.footer__button2 {
+.games__button2 {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -103,12 +103,12 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     border-radius: 16px;
     box-sizing:border-box;
 }
-.footer__button2:hover {
+.games__button2:hover {
     border: 3px solid #44D2FF;
     cursor: url(img/clarity_cursor-hand-line.svg), pointer;
   }
 
-.footer__button3 {
+.games__button3 {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -120,18 +120,18 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     border-radius: 16px;
     box-sizing:border-box;
 }
-.footer__button3:hover {
+.games__button3:hover {
     border: 3px solid #44D2FF;
     cursor: url(img/clarity_cursor-hand-line.svg), pointer;
   }
 
-.footer__button_text {
+.games__button_text {
     margin-left: 32px;
     margin-bottom: 32px;
     color: #FFF;
     font-size: 24px;
     line-height: 32px;
 }
-.footer__button_text:hover {
+.games__button_text:hover {
     cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     }

@@ -227,6 +227,7 @@ cursor: url(img/clarity_cursor-hand-line.svg), pointer;
       }
       .seasons {
         padding-top: 127px;
+        padding-bottom: 85px;
         gap: 64px;
       }
       .seasons__content {

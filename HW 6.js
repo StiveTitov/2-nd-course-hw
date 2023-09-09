@@ -29,3 +29,12 @@ for (i = 0; i < 3; i++) {
 }
 
 console.log(arr);
+
+// Задание 5
+console.log('Задание 5');
+
+arr = [1, 1, 1];
+for (j = 0; j < 3; j++) {
+    arr.push(2); // заполняем массив числом 2
+}
+console.log(arr);

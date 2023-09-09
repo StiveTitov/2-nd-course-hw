@@ -39,3 +39,10 @@ for (j = 0; j < 3; j++) {
 }
 
 console.log(arr);
+
+// Задание 6
+console.log('Задание 6');
+arr = [9, 8, 7, 'a', 6, 5];
+arr = arr.sort();
+arr.pop();
+console.log(arr);

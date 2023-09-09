@@ -10,3 +10,8 @@ while (i <= 3) {
 console.log('Задание 2');
 arry = [1, 5, 4, 10, 0, 3];
 console.log(arry.indexOf(4));
+
+// Задание 3
+console.log('Задание 3');
+arry = [1, 3, 5, 10, 20];
+console.log(arry.join(' '));

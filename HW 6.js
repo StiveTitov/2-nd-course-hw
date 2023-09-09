@@ -46,3 +46,14 @@ arr = [9, 8, 7, 'a', 6, 5];
 arr = arr.sort();
 arr.pop();
 console.log(arr);
+
+// Задание 7
+console.log('Задание 7');
+arr = [9, 8, 7, 6, 5];
+let getNumber = Number(prompt('Угадай число от 5 до 9'));
+let search = arr.includes(getNumber);
+if (search != true) {
+    alert('Не угадал');
+} else {
+    alert('Угадал');
+}

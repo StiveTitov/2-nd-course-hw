@@ -70,3 +70,16 @@ for (i = 0; i < 6; i++) {
 }
 arrEmpty = arrEmpty.join('');
 console.log(arrEmpty);
+
+// Задание 9
+console.log('Задание 9');
+
+arr = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+arr[0] = arr[0].join('');
+arr[1] = arr[1].join('');
+arr = arr.join('');
+arr = arr.split('');
+console.log(arr);

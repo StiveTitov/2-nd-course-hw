@@ -96,7 +96,18 @@ for (let item of arr) {
 
 // Задание 11
 console.log('Задание 11');
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let result = arr.map(el => (el ** 2));
+
+function getArr(arr) {
+    return arr.map(el => (el ** 2));
+}
+let result= getArr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 console.log(result);
 
+// Задание 12
+console.log('Задание 12');
+arr = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+//function getLengthWords(arr) {
+//  return arr.map((item) => item.length);
+//}
+result = arr.map(item => item.length);
+console.log(arr);

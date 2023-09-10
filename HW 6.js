@@ -57,3 +57,16 @@ if (search != true) {
 } else {
     alert('Угадал');
 }
+
+// Задание 8
+console.log('Задание 8');
+let arrEmpty = [];
+let row = 'abcdef';
+let z;
+arr = row.split('');
+for (i = 0; i < 6; i++) {
+    z = arr.pop();
+    arrEmpty.push(z);
+}
+arrEmpty = arrEmpty.join('');
+console.log(arrEmpty);

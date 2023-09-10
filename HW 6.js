@@ -93,3 +93,10 @@ for (let item of arr) {
     sum = sum + item;
     console.log(sum);
 }
+
+// Задание 11
+console.log('Задание 11');
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = arr.map(el => (el ** 2));
+console.log(result);
+

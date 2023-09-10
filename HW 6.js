@@ -83,3 +83,13 @@ arr[1] = arr[1].join('');
 arr = arr.join('');
 arr = arr.split('');
 console.log(arr);
+
+// Задание 10
+console.log('Задание 10');
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let sum = 0;
+for (let item of arr) {
+    sum = sum + item;
+    console.log(sum);
+}

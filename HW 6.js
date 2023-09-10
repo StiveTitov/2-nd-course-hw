@@ -111,3 +111,14 @@ function getLengthWords(arr) {
 }
 result = getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']);
 console.log(result);
+
+// Задание 13
+console.log('Задание 13');
+
+function filterPositive(arr) {
+    return arr.filter(item => item < 0);
+}
+result = filterPositive([-1, 0, 5, -10, 56]); // => [-1, -10]
+console.log(result);
+result = filterPositive([-25, 25, 0, -1000, -2]); // => [-25, -1000, -2]
+console.log(result);

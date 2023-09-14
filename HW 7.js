@@ -39,14 +39,13 @@ console.log(Math.max(52, 53, 49, 77, 21, 32));
 // Задание 5
 console.log('Задание 5');
 
-const randomNumber = (random) => {
-
-    while (random < 1 || random > 10) {
-        random = Math.round((Math.random() * 10));
-    }
-    console.log(random);
+const getRandomArbitrary = (min, max) => {
+    console.log(Math.random() * (max - min) + min);
+    return
 }
-randomNumber(Math.round((Math.random() * 10)));
+getRandomArbitrary(1, 10);
+
+
 
 
 // Задание 6

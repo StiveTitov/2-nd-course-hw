@@ -39,13 +39,13 @@ console.log(Math.max(52, 53, 49, 77, 21, 32));
 // Задание 5
 console.log('Задание 5');
 
-const getRandomArbitrary = (min, max) => {
-    console.log(Math.random() * (max - min) + min);
+const getRandomIntInclusive = (min, max) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    console.log(Math.floor(Math.random() * (max - min + 1)) + min);
     return
 }
-getRandomArbitrary(1, 10);
-
-
+getRandomIntInclusive(1, 10);
 
 
 // Задание 6

@@ -5,6 +5,7 @@ let str = 'js';
 console.log(str.toUpperCase());
 
 // Задание 2
+console.log('Задание 2');
 
 const searchStart = (products, search) => {
     products.forEach((product) => {

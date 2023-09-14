@@ -41,9 +41,14 @@ console.log('Задание 5');
 
 const randomNumber = (random) => {
 
-    if (random >= 1 && random <= 10) {
-        console.log(random);
+    while (random < 1 || random > 10) {
+        random = Math.round((Math.random() * 10));
     }
-    return;
+    console.log(random);
 }
 randomNumber(Math.round((Math.random() * 10)));
+
+
+// Задание 6
+console.log('Задание 6');
+

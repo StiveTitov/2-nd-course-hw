@@ -15,7 +15,7 @@ const searchStart = (products, search) => {
             result.push(product);
             console.log(result);
         }
-        return
+        return;
     });
 }
 
@@ -35,3 +35,15 @@ console.log('Задание 4');
 
 console.log(Math.min(52, 53, 49, 77, 21, 32));
 console.log(Math.max(52, 53, 49, 77, 21, 32));
+
+// Задание 5
+console.log('Задание 5');
+
+const randomNumber = (random) => {
+
+    if (random >= 1 && random <= 10) {
+        console.log(random);
+    }
+    return;
+}
+randomNumber(Math.round((Math.random() * 10)));

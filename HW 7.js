@@ -81,3 +81,9 @@ const getRandomInclusive = (a, b) => {
 }
 getRandomInclusive(3, 7);
 
+// Задание 8
+console.log('Задание 8');
+
+let currentDate = new Date();
+console.log(currentDate);
+

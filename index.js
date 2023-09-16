@@ -12,3 +12,9 @@ function makeRiddle() {
         alert('Введёное значение противоречит условию');
     }
 }
+
+function makeRiddle2() {
+    let arryRiddle2 = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    alert(arryRiddle2);
+
+}

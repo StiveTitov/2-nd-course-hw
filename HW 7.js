@@ -84,6 +84,14 @@ getRandomInclusive(3, 7);
 // Задание 8
 console.log('Задание 8');
 
+let myDate = new Date();
+console.log(myDate);
+
+// Задание 9
+console.log('Задание 9');
+
 let currentDate = new Date();
+currentDate.setDate(73);
 console.log(currentDate);
+
 

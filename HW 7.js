@@ -92,7 +92,7 @@ console.log('Задание 9');
 
 let currentDate = new Date();
 currentDate.setDate(73);
-console.log(currentDate);
+console.log(currentDate.getDate());
 
 // Задание 10
 console.log('Задание 10');

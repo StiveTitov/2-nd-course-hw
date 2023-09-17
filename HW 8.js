@@ -135,3 +135,23 @@ console.log(filter([3, -4, 1, 9], isPositive)); // Должен выводить
 
 
 console.log(filter(people, isMale)); // Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
+
+// Задание 3
+console.log('Задание 3');
+
+const timer = (deadline) => {
+
+    let time = 30;
+    const interval = setInterval(() => {
+        time -= 1;
+        console.log(new Date());
+    }, 1000);
+
+    setTimeout(() => {
+        clearInterval(interval);
+        console.log('Время истекло!')
+    }, deadline * 1000)
+};
+
+const deadline = 30;
+timer(deadline);

@@ -158,3 +158,13 @@ timer(deadline);
 
 // Задание 4
 console.log('Задание 4');
+
+function delayForSecond(callback) {
+    // Код писать можно только внутри этой функции
+    setTimeout(callback, 1000);
+    //callback();
+}
+
+delayForSecond(function () {
+    console.log('Привет, Глеб!');
+})

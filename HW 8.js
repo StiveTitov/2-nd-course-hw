@@ -145,7 +145,7 @@ const timer = (deadline) => {
     const interval = setInterval(() => {
         time -= 1;
         console.log(new Date());
-    }, 1000);
+    }, 3000);
 
     setTimeout(() => {
         clearInterval(interval);
@@ -155,3 +155,6 @@ const timer = (deadline) => {
 
 const deadline = 30;
 timer(deadline);
+
+// Задание 4
+console.log('Задание 4');

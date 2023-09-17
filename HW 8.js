@@ -192,5 +192,5 @@ function sayHi(name) {
 // Код выше менять нельзя
 
 // Нужно изменить код ниже:
-delayForSecond(0)
+
 delayForSecond(sayHi('Глеб'))

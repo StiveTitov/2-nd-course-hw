@@ -40,11 +40,11 @@ const people = [
 ];
 
 // Допишите колбэк для sort, изучите, как работает колбэк, в документации
-console.log(people.sort(function (a, b) {
-    if (a.age > b.age) {
+console.log(people.sort(function (varA, varB) {
+    if (varA.age > varB.age) {
         return 1;
     }
-    if (a.age < b.age) {
+    if (varA.age < varB.age) {
         return -1;
     }
     return 0;

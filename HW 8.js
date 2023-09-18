@@ -112,23 +112,23 @@ people = [
 
 function isPositive(number) {
     // писать код тут
-    if (number > 0) {
+    return number >= 0;
 
-        return number;
-    }
 }
-function isMale() {
+function isMale(item) {
     // писать код тут
+    return item.gender === 'male';
 }
 function filter(arr, ruleFunction) {
     // писать код тут
-    const output = [];
-
-    for (let i = 0; i < arr.length; i++) {
-        output.push(ruleFunction(arr[i]));
+    let result = [];
+    arr.map(item => {
+        if (ruleFunction(item)) {
+            result.push(item);
+        }
     }
-
-    return output;
+    );
+    return result;
 }
 
 console.log(filter([3, -4, 1, 9], isPositive)); // Должен выводить [3, 1, 9]
@@ -192,5 +192,8 @@ function sayHi(name) {
 // Код выше менять нельзя
 
 // Нужно изменить код ниже:
+//просто добавить стрелочную функцию, таким образом вызвав коллбэк
+//() => sayHi(‘Глеб’)
+//было: delayForSecond(sayHi('Глеб'))
 
-delayForSecond(sayHi('Глеб'))
+delayForSecond(() => sayHi('Глеб'))

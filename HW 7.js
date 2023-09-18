@@ -91,8 +91,9 @@ console.log(myDate);
 console.log('Задание 9');
 
 let currentDate = new Date();
-currentDate.setDate(73);
-console.log(currentDate.getDate());
+currentDate.setDate(currentDate.getDate() + 73); // К текущей дате 
+//прибавляет количество дней, в данном задании 73
+console.log(currentDate);
 
 // Задание 10
 console.log('Задание 10');
